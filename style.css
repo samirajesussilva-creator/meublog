@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --preto: #292f36;
+    --ciano: #4ecdc4;
+    --branco: #ffffff;    
+    --rosa: #ff6b6b;
+    --texto: "Saira", sans-serif;
+    --titulo: "Archivo Black", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--rosa);
+    font-family: var(--texto);
+}
+
+header {
+    background-color: var(--preto);
+    text-align: center;
+    padding: 20px;
+    color: var(--branco);
+}
+
+.capa {
+    width: 100%;
+    display: block;
+}
+
+.caixa-conteudo {
+    margin: 20px;
+    border: 2px dotted var(--preto);
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo-titulo {
+    font-family: var(--titulo);
+    font-size: 32px;
+    color: var(--branco);
+}
+
+.conteudo-texto {
+    margin: 40px 0;
+    font-family: var(--texto);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+footer p {
+    font-family: var(--titulo);
+    font-size: 20px;
+}
